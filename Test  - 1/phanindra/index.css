@@ -1,0 +1,67 @@
+.bg-container{
+    height: 100vh;
+}
+.right-container{
+    border:1px,solid,black;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.content-container{
+    border-radius:15px ;
+}
+.line{
+    border: 1px solid gray;
+}
+.fs-12{
+    font-size: 12px;
+}
+.input{
+    border-radius: 5px;
+}
+.dataimage{
+    height: 40vh;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.left-container-outerbox{
+    background-color: #ccccff;
+    border-radius: 10px;
+}
+.plan-card{
+    border-radius: 8px;
+    width: 50%;
+    padding: 7px;
+}
+.plan-card-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.Modify-text{
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.modalbtn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.plan{
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.modalImage{
+    height: 30vh;
+    width: 100%;
+}.modalPlanCard{
+    background-color: #ccccff;
+    width: 200px;
+    padding: 7px;
+}
+.modal-body{
+    width: 100%;
+}

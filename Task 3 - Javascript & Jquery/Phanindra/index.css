@@ -88,4 +88,9 @@
 .signupbtn {
     background-color: linear-gradient(to right, yellow, orange);
 }
+@media  and (max-width:768px) {
+    .home{
+        background-color:none;
+    }
+}
 

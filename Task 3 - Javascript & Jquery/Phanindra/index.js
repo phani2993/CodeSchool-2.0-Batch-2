@@ -26,7 +26,7 @@ $("document").ready(function () {
         .css({ height: "450px", objectfir: "cover", borderRadius: "8px" });
       $(".carousel-item-1 div h5")
         .text(data.articles[1].title)
-        .css({ fontSize: "25px", fontWeight: "800" });
+        .css({ fontSize: "20px", fontWeight: "800" });
       $(".carousel-item-1 div p")
         .text(
           `${data.articles[1].author}, ${date1.toLocaleString("en-us", {
@@ -41,7 +41,7 @@ $("document").ready(function () {
         .css({ height: "450px", objectfir: "cover", borderRadius: "8px" });
       $(".carousel-item-2 div h5")
         .text(data.articles[0].title)
-        .css({ fontSize: "25px", fontWeight: "800" });
+        .css({ fontSize: "20px", fontWeight: "800" });
       $(".carousel-item-2 div p")
         .text(
           `${data.articles[0].author},  ${date2.toLocaleString("en-us", {
@@ -407,7 +407,7 @@ $("document").ready(function () {
             $(".posts-container").append(product);
 
             //  $(".product-box").append(product);
-            $(".product-image").css({ height: "300px", width: "100%" });
+            $(".product-image").css({ height: "300px", width: "100%",objectFit:"cover" });
             $(".product-box").css({ borderRadius: "8px" });
             $(".product-box-description").css({ padding: "15px" });
             $(".product-content h1").css({
